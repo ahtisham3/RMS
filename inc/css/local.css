@@ -1,0 +1,151 @@
+.page-logo a{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 400;
+}
+.page-logo a h2 span{
+	font-weight: 700; 
+	padding-right: 10px;
+}
+.page-header{
+	height: auto !important;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload{
+    width: 100%;
+}
+
+.dropdown-toggle
+{
+	background-color: #000 !important;
+}
+.tiles .tile{
+	width: 100% !important;
+	display: block;
+}
+.fa-trash-o
+{
+	color: #f03434 !important;
+}
+.fa-pencil-square-o
+{
+	color: #03A678 !important;
+}
+
+
+#appointments-table tr th
+{
+	font-weight: 700;
+	color: #fff !important;
+	font-size: 16px;
+}
+#advanced select
+{
+	border: none;
+	background-color: #f3f6f9;
+	color: #a0a9b4;
+	height: 55px;
+}
+
+
+.invoice-content-2 .invoice-body td, .invoice-content-2 .invoice-body th {
+    vertical-align: middle;
+    padding-left: 10px !important; 
+    padding-right: 10px !important;
+}
+#select-procedure-invoice, #add-procedure-btn-invoice, #no-procedure-btn-invoice, #add-discount-invoice
+{
+	display: none;
+}
+#add-another-procedure:hover
+{
+	cursor:pointer;
+}
+#add-discount-invoice td
+{
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #000;
+}
+#add-discount-btn
+{
+	margin-top: 26px;
+}
+#close-discount:hover
+{
+	cursor:pointer;
+}
+
+.picker-wrapper {
+  transition: background-color 0.5s ease;
+}
+.color-picker {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    border: 1px solid rgba(203, 203, 203, 0.6);
+    border-radius: 2px;
+}
+
+.color-picker > div {
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    margin: 5px;
+    border-radius: 100%;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+.picker-wrapper {
+    padding: 20px;
+}
+
+.color-picker > div:hover {
+    opacity: 10;
+}
+
+.loader {
+  position: relative;
+  text-align: center;
+  margin: 15px auto 35px auto;
+  z-index: 9999;
+  display: block;
+  width: 80px;
+  height: 80px;
+  border: 10px solid rgba(0, 0, 0, .3);
+  border-radius: 50%;
+  border-top-color: #000;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
